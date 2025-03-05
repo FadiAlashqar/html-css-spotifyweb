@@ -106,6 +106,7 @@ header{
 .box{
     height: fit-content;
     width: calc(100vw / 7);
+    padding: 10px;
 }
 .box img{
     width: 65%;
@@ -125,4 +126,7 @@ header{
 }
 #logo-spoty{
     width: 70%;
+}
+.round-img{
+    border-radius: 50%;
 }

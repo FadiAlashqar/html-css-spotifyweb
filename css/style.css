@@ -104,13 +104,10 @@ header{
     justify-content: space-around;
 }
 .box{
-    height: fit-content;
-    width: calc(100vw / 7);
     padding: 10px;
 }
 .box img{
-    width: 65%;
-    margin-left: 35px;
+    width: 150px;
 }
 .p-10{
     padding: 10px;
@@ -157,4 +154,54 @@ header{
 .download{
     width: 10%;
     margin: 0 5px;
+}
+.w-15{
+    width: 15%;
+}
+.d-block{
+    display: block;
+}
+.float-left{
+    float: left;
+}
+.left-col, .right-col{
+    width: calc(100% / 4);
+    height: 100px;
+}
+.mid-col{
+    width: calc(100% / 4 * 2);
+    height: 100px;
+}
+.left-col img{
+    width: 20%;
+    height: 60%;
+    margin: 0 4px;
+}
+.left-col ul li{
+    list-style: none;
+    margin: 0 4px;
+}
+.mx-10{
+    margin: 0 10px;
+}
+.align-center{
+    align-items: center;
+}
+.control-bar{
+    height: 2px;
+    width: 300px;
+    background-color: grey;
+    border-radius: 20%;
+}
+.column{
+    flex-direction: column;
+}
+.f-25{
+    font-size: 25px;
+}
+.control-bar-2{
+    height: 2px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 20%;
 }

@@ -31,9 +31,6 @@ header{
 .white{
     color: white;
 }
-.col{
-    border: 2px solid white;
-}
 #sidebar ul li{
     margin: 10px;
     list-style-type: none;
@@ -204,4 +201,43 @@ header{
     width: 100px;
     background-color: grey;
     border-radius: 20%;
+}
+ul li:hover {
+    color: white;
+}
+.elapsed-time{
+    width: 20%;
+    height: 100%;
+    background-color: lightgrey;
+    border-radius: 20%;
+    position: relative;
+}
+.controller-point{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+#upgrade:hover{
+    transform: scale(1.1);
+}
+.fa-circle-play:hover{
+    transform: scale(1.2);
+}
+.control-bar-2:hover .elapsed-time{
+    background-color: greenyellow;
+}
+.control-bar:hover .elapsed-time{
+    background-color: greenyellow;
+}
+.left-col:hover i{
+    color: white;
+}
+.d-none{
+    display: none;
 }
